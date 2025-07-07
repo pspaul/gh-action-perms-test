@@ -1,0 +1,13 @@
+name: MyBot
+on:
+  pull_request_target:
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.hesd.sha }}
+      - name: Do stuff
+        run: ls -l
