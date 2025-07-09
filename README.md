@@ -1,2 +1,2 @@
 # gh-action-perms-test
-sad
+asd
