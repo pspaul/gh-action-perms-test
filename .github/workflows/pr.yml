@@ -10,6 +10,6 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.hesd.sha }}
       - name: Do stuff
-        run: ls -l
+        run: ls -l; echo secure; exit 1
       - name: Scan
         uses: SonarSource/sonarqube-scan-action@v5.2.0
