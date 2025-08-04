@@ -1,1 +1,1 @@
-# gh-action-perms-test
+# GitHub Actions Perms Test
