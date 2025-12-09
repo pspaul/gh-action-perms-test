@@ -12,4 +12,4 @@ jobs:
       - name: Do stuff
         run: ls -l
       - name: Scan
-        uses: SonarSource/docker-sonarqube/.github/workflows/next-scan.yml@7853595415e8ddf259b5003be8f1caabab3b1717
+        uses: SonarSource/sonarqube-scan-action@v5.2.0
